@@ -7,5 +7,5 @@ group :test do
   gem 'rspec'
   gem 'capybara'
   gem 'database_cleaner'
-  gem 'factory_girl'
+  gem 'factory_girl', '~> 4.0'
 end
