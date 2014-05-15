@@ -9,3 +9,7 @@ group :test do
   gem 'database_cleaner'
   gem 'factory_girl', '~> 4.0'
 end
+
+gem :development do
+  gem 'cucumber-sinatra'
+end
