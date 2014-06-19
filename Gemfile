@@ -10,6 +10,6 @@ group :test do
   gem 'factory_girl', '~> 4.0'
 end
 
-gem :development do
+group :development do
   gem 'cucumber-sinatra'
 end
